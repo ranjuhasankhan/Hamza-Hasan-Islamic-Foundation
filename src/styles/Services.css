@@ -1,0 +1,130 @@
+/* Services Styles */
+.services {
+  min-height: 100vh;
+}
+
+.services-hero {
+  background: linear-gradient(135deg, #1a5f3d 0%, #2c3e50 100%);
+  color: white;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.services-hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.services-hero p {
+  font-size: 1.2rem;
+  opacity: 0.95;
+}
+
+.services-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.service-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s;
+  border-top: 4px solid #1a5f3d;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.service-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.service-card h3 {
+  color: #2c3e50;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.service-description {
+  color: #666;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.service-details {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.service-details li {
+  color: #555;
+  padding: 0.5rem 0;
+  font-size: 0.95rem;
+}
+
+.service-details li::before {
+  content: "✓ ";
+  color: #1a5f3d;
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+.services-cta {
+  background: linear-gradient(135deg, #1a5f3d 0%, #2c3e50 100%);
+  color: white;
+  padding: 3rem 2rem;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 3rem;
+}
+
+.services-cta h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.services-cta p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  opacity: 0.95;
+}
+
+.services-cta .btn {
+  display: inline-block;
+  padding: 0.75rem 2rem;
+  background: #ffc107;
+  color: #2c3e50;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+
+.services-cta .btn:hover {
+  background: #ffb300;
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .services-hero h1 {
+    font-size: 1.8rem;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+}
