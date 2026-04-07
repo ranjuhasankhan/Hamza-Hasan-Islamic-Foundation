@@ -2,7 +2,7 @@
 
 A fully functional, modern Islamic organization website built with React and Vite. The website showcases comprehensive services, events, team information, and community engagement features.
 
-### 🌟 Features
+### 🌟 Featuress
 
 ### Core Pages
 - **Home**: Hero section, feature highlights, statistics, upcoming events, and call-to-action
